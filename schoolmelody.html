@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School of Melody</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the School of Melody</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <ul>
+            <li>Piano Lessons</li>
+            <li>Guitar Lessons</li>
+            <li>Vocal Training</li>
+        </ul>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>Recital Night - March 25th</li>
+            <li>Masterclass with Renowned Guitarist - April 10th</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Student Gallery</h2>
+        <div class="gallery">
+            <img src="student1.jpg" alt="Student 1 Performance">
+            <img src="student2.jpg" alt="Student 2 Performance">
+            <img src="student3.jpg" alt="Student 3 Performance">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The School of Melody offers high-quality music education for all ages and skill levels.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@schoolofmelody.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <section id="registration">
+        <h2>Register Now</h2>
+        <form action="register.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="course">Select Course:</label><br>
+            <select id="course" name="course">
+                <option value="Piano">Piano Lessons</option>
+                <option value="Guitar">Guitar Lessons</option>
+                <option value="Vocal">Vocal Training</option>
+            </select><br>
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 School of Melody. All rights reserved.</p>
+    </footer>
+</body>
+</html>
